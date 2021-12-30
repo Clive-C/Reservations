@@ -1,4 +1,39 @@
+.main {
+  background-color: darkgray;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.list-background {
+  background-color: rgb(179, 178, 178);
+}
+
+.card-background {
+  background-color: rgb(233, 233, 233);
+}
+
 .side-bar {
-  background-color: #393a44;
-  min-width: 200px;
+    min-width: 200px;
+}
+
+
+.boldtext {
+  font-weight: bolder;
+}
+.major-mono {
+  font-family: 'Major Mono Display', monospace;
+}
+
+@media (min-width: 768px) {
+  .main {
+    height: 100%;
+    min-height: 100vh;
+  }
+
+  .side-bar {
+    background-color: rgba(0, 0, 0, .88);
+    min-width: 200px;
+    min-height: 100%;
+
+  }
 }
